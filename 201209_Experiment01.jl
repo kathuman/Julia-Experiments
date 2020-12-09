@@ -1,11 +1,14 @@
-using JuMP, Gurobi
-m = Model(solver=GurobiSolver())
+using Ipopt
+model = Model(with_optimizer(Ipopt.Optimizer))
+@variable(model, x, start = 0.0)
+@variable(model, y, start = 0.0)
 
-@variable(m, x[1:2])
-@objective(m, Min, (x[1]-3)^2 + (x[2]-4)^2)
-@constraint(m, (x[1]-1)^2 + (x[2]+1)^2 <= 1)
+@NLobjective(model, Min, (1 - x) ^ 2 + 100 * (y - x ^ 2) ^ 2)
 
-solve(m)
+JuMP.optimize!(model)
+println("x = ", JuMP.result_value(x), " y = ", JuMP.result_value(y))
 
-println("** Optimal objective function value = ", getobjectivevalue(m))
-println("** Optimal solution = ", getvalue(x))
+# adding a (linear) constraint
+@constraint(model, x + y == 10)
+JuMP.optimize!(model)
+println("x = ", JuMP.result_value(x), " y = ", JuMP.result_value(y))

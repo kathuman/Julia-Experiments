@@ -1,7 +1,7 @@
 # Julia-Experiments
 
 ## Run Julia in Colab
-First, create the following file, save it with the *ipynb* extension
+1. create the following file, save it with the *ipynb* extension, and upload it into colab.
 ```
 {
   "nbformat": 4,

@@ -1,5 +1,15 @@
 # Julia-Experiments
-These are files with which I experiemted using the [Julia programming language](https://julialang.org/), a powerful [programming alternative to python](https://medium.com/@devathon_/julia-vs-python-in-2020-d2dc2c2ef3f).
+These are files with which I experiemted using the [Julia programming language](https://julialang.org/), a powerful [programming alternative to python](https://medium.com/@devathon_/julia-vs-python-in-2020-d2dc2c2ef3f). 
+
+Julia can be run in many ways:
+- As a standalone application in the computer (terminal mode)
+- Through a programming workbook environment like Jupyter Lab
+- Through an online programming workbook environment like Google Colab
+- Through an Intergrated programming environment like 
+
+As a result, Files created are in one of the following formats:
+- *.ipynb* workbook for Jupyter Notebook, Jupyter Labs or Google Colab
+- *.jl source file for julia terminal or IDE (Integrated Development Environment)
 
 ## Run Julia in Colab
 1. create the following file, save it with the *ipynb* extension, and upload it into [Google Colab](https://colab.research.google.com

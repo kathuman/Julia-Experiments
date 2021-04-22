@@ -1,7 +1,8 @@
 # Julia-Experiments
 
 ## Run Julia in Colab
-1. create the following file, save it with the *ipynb* extension, and upload it into colab.
+1. create the following file, save it with the *ipynb* extension, and upload it into [Google Colab](https://colab.research.google.com
+).
 ```
 {
   "nbformat": 4,

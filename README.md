@@ -11,9 +11,8 @@ As a result, Files created are in one of the following formats:
 - *.ipynb* workbook for Jupyter Notebook, Jupyter Labs or Google Colab
 - *.jl source file for julia terminal or IDE (Integrated Development Environment)
 
-## Run Julia in Colab
-1. create the following file, save it with the *ipynb* extension, and upload it into [Google Colab](https://colab.research.google.com
-).
+## Run Julia in [Google Colab](https://colab.research.google.com)
+1. create the following file, save it with the *ipynb* extension, and upload it into [Google Colab](https://colab.research.google.com).
 ```
 {
   "nbformat": 4,

@@ -1,4 +1,5 @@
 # Julia-Experiments
+These are files with which I experiemted using the [Julia programming language](https://julialang.org/), a powerful [programming alternative to python](https://medium.com/@devathon_/julia-vs-python-in-2020-d2dc2c2ef3f).
 
 ## Run Julia in Colab
 1. create the following file, save it with the *ipynb* extension, and upload it into [Google Colab](https://colab.research.google.com
